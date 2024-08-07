@@ -49,7 +49,7 @@ ingress:
   annotations:
     nginx.ingress.kubernetes.io/server-alias: app-helm.k8s-6.sa
   hosts:
-    - host: app-helm.k8s-6.sa
+    - host: app-helm.k8s-5.sa
       paths:
         - path: /
           pathType: ImplementationSpecific
